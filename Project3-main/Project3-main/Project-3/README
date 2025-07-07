@@ -1,0 +1,11 @@
+Overview
+This is a simple weather journal app that allows users to record their daily weather observations. Users can input the date, temperature, weather conditions, and additional notes. The app stores these entries and allows users to view and manage their journal.
+
+Features:
+Add Entries: Users can add new entries to the journal.
+View Entries: Users can view a list of their past entries.
+Edit Entries: Users can edit existing entries.
+Delete Entries: Users can delete entries they no longer need.
+Technologies Used:
+Frontend: HTML, CSS, JavaScript
+Backend: (Optional, for more complex features) Node.js

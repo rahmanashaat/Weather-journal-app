@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Soft background color */
+    color: #55063d; /* Neutral text color */
+}
+
+/* Wrapper for the inputs and button */
+div {
+    margin: 20px auto;
+    max-width: 500px; /* Restrict content width for better readability */
+    padding: 20px;
+    background: #ac7887; /* White background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.459); /* Subtle shadow effect */
+}
+
+/* Entry holder styling */
+#entryHolder {
+    margin-top: 30px;
+    padding: 10px;
+    background: #ac8297; /* Light blue for differentiation */
+    border-radius: 8px;
+    border: 1px solid #944f669a;
+}
+
+#entryHolder div {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffffff; /* White cards */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem; /* Slightly larger text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.548);
+}
+
+/* Input and Textarea */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #818080;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Ensure padding doesn’t affect width */
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #4d0026; /* Primary button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #410819; /* Darker shade on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    #entryHolder div {
+        padding: 15px;
+        margin: 5px 0;
+    }
+
+    div {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%; /* Full-width button for smaller screens */
+    }
+}

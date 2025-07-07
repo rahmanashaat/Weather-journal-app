@@ -1,0 +1,26 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "A weather journal app built with Node.js and Express.",
+  "main": "server.js",
+  "type": "module", 
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "weather",
+    "journal",
+    "nodejs",
+    "express"
+  ],
+  "author": "Rahma Nashaat",
+  "license": "ISC"
+}
